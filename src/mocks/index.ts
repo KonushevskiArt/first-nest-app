@@ -1,0 +1,58 @@
+export const users = [
+  {
+    _id: '4234wdfasdf324sdff',
+    isActive: true,
+    balance: '$2452',
+    picture:
+      'https://img.freepik.com/free-photo/happy-brunette-woman-with-short-hair-standing-confident-relaxed-pose-hands-jeans-pockets-smiling-pleased-studio_176420-41414.jpg?w=996&t=st=1690135207~exp=1690135807~hmac=4bb2dd1bdda656bfe041c103d474152a50d5b0ca0e544e16f56a6e5d4f7a714b',
+    age: 25,
+    eyeColor: 'green',
+    name: 'Vasa',
+    company: 'SIBERIA',
+    email: 'vasaa@gmail.com',
+    phone: '55 232 59 65',
+    address: '55 Briton bitch? 3244 ',
+  },
+  {
+    _id: '4234wd4232f324sdff',
+    isActive: true,
+    balance: '$2452',
+    picture:
+      'https://img.freepik.com/free-photo/happy-brunette-woman-with-short-hair-standing-confident-relaxed-pose-hands-jeans-pockets-smiling-pleased-studio_176420-41414.jpg?w=996&t=st=1690135207~exp=1690135807~hmac=4bb2dd1bdda656bfe041c103d474152a50d5b0ca0e544e16f56a6e5d4f7a714b',
+    age: 25,
+    eyeColor: 'green',
+    name: 'Vasa',
+    company: 'Nastia',
+    email: 'vasaa@gmail.com',
+    phone: '55 232 59 65',
+    address: '55 Briton bitch? 3244 ',
+  },
+  {
+    _id: '42sfs32dfasdf324sdff',
+    isActive: true,
+    balance: '$2452',
+    picture:
+      'https://img.freepik.com/free-photo/happy-brunette-woman-with-short-hair-standing-confident-relaxed-pose-hands-jeans-pockets-smiling-pleased-studio_176420-41414.jpg?w=996&t=st=1690135207~exp=1690135807~hmac=4bb2dd1bdda656bfe041c103d474152a50d5b0ca0e544e16f56a6e5d4f7a714b',
+    age: 25,
+    eyeColor: 'green',
+    name: 'Gala',
+    company: 'SIBERIA',
+    email: 'vasaa@gmail.com',
+    phone: '55 232 59 65',
+    address: '55 Briton bitch? 3244 ',
+  },
+  {
+    _id: '4234wdfasdf32456hfff',
+    isActive: true,
+    balance: '$2452',
+    picture:
+      'https://img.freepik.com/free-photo/happy-brunette-woman-with-short-hair-standing-confident-relaxed-pose-hands-jeans-pockets-smiling-pleased-studio_176420-41414.jpg?w=996&t=st=1690135207~exp=1690135807~hmac=4bb2dd1bdda656bfe041c103d474152a50d5b0ca0e544e16f56a6e5d4f7a714b',
+    age: 25,
+    eyeColor: 'green',
+    name: 'Dima',
+    company: 'SIBERIA',
+    email: 'vasaa@gmail.com',
+    phone: '55 232 59 65',
+    address: '55 Briton bitch? 3244 ',
+  },
+];
