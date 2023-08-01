@@ -5,6 +5,9 @@ import { UserModule } from '../user/user.module';
 import { ConfigModule, ConfigService } from '@nestjs/config/dist';
 import configurations from 'src/configurations';
 import { SequelizeModule } from '@nestjs/sequelize';
+import { User } from '../user/models/user.model';
+import { AuthModule } from '../auth/auth.module';
+import { TokenModule } from '../token/token.module';
 
 @Module({
   imports: [
@@ -17,17 +20,19 @@ import { SequelizeModule } from '@nestjs/sequelize';
       inject: [ConfigService],
       useFactory: (ConfigService: ConfigService) => ({
         dialect: 'postgres',
-        host: ConfigService.get('db_host'),
         port: ConfigService.get('db_port'),
+        host: ConfigService.get('db_host'),
         username: ConfigService.get('db_user'),
         password: ConfigService.get('db_password'),
         database: ConfigService.get('db_name'),
         synchronize: true,
         autoLoadModels: true,
-        models: [],
+        models: [User],
       }),
     }),
     UserModule,
+    AuthModule,
+    TokenModule,
   ],
   controllers: [AppController],
   providers: [AppService],
